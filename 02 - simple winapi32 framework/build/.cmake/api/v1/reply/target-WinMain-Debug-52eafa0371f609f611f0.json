@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/02 - simple winapi32 framework/bin/WinMain.exe"
+			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/bin/WinMain.exe"
 		},
 		{
-			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/02 - simple winapi32 framework/bin/WinMain.pdb"
+			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/bin/WinMain.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -75,7 +75,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/02 - simple winapi32 framework/include"
+					"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/include"
 				}
 			],
 			"language" : "CXX",
