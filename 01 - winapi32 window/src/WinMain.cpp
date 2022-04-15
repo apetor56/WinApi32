@@ -1,6 +1,7 @@
 #include <sstream>
 #include <windows.h>
 
+
 LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     switch (msg) {
         /* terminale the application */
