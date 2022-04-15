@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "WinMain::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WinMain-Debug-23a4b1c97b1448a91982.json",
+					"jsonFile" : "target-WinMain-Debug-aaaa72f3d7c0f470c857.json",
 					"name" : "WinMain",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/01 - winapi32 window/build",
-		"source" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/01 - winapi32 window"
+		"build" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/01 - winapi32 window/build",
+		"source" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/01 - winapi32 window"
 	},
 	"version" : 
 	{

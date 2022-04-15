@@ -1,5 +1,5 @@
 CMakeFiles/WinMain.dir/src/WinMain.cpp.obj: \
- C:\Users\Lukasz\ Tenerowicz\Desktop\DirectX_tutorial\01\ -\ winapi32\ window\src\WinMain.cpp \
+ C:\Users\Lukasz\ Tenerowicz\Desktop\DirectX\01\ -\ winapi32\ window\src\WinMain.cpp \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \

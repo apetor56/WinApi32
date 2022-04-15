@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/01 - winapi32 window
+# Install script for directory: C:/Users/Lukasz Tenerowicz/Desktop/DirectX/01 - winapi32 window
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/01 - winapi32 window/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/01 - winapi32 window/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

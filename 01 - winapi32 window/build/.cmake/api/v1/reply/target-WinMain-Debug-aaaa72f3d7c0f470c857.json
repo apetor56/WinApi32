@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/01 - winapi32 window/bin/WinMain.exe"
+			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/01 - winapi32 window/bin/WinMain.exe"
 		},
 		{
-			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX_tutorial/01 - winapi32 window/bin/WinMain.pdb"
+			"path" : "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/01 - winapi32 window/bin/WinMain.pdb"
 		}
 	],
 	"backtrace" : 1,
