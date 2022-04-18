@@ -1,4 +1,4 @@
-#include "Window.hpp
+#include "Window.hpp"
 
 int CALLBACK WinMain(
     HINSTANCE hInstance,
