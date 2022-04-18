@@ -3,5 +3,10 @@
   "directory": "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/WinMain.dir/includes_CXX.rsp -g -std=c++17 -Wall -pedantic -I./include -o CMakeFiles\\WinMain.dir\\src\\WinMain.cpp.obj -c \"C:\\Users\\Lukasz Tenerowicz\\Desktop\\DirectX\\02 - simple winapi32 framework\\src\\WinMain.cpp\"",
   "file": "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/src/WinMain.cpp"
+},
+{
+  "directory": "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/WinMain.dir/includes_CXX.rsp -g -std=c++17 -Wall -pedantic -I./include -o CMakeFiles\\WinMain.dir\\src\\Window.cpp.obj -c \"C:\\Users\\Lukasz Tenerowicz\\Desktop\\DirectX\\02 - simple winapi32 framework\\src\\Window.cpp\"",
+  "file": "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/src/Window.cpp"
 }
 ]

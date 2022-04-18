@@ -152,6 +152,30 @@ src/WinMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinMain.dir\build.make CMakeFiles/WinMain.dir/src/WinMain.cpp.s
 .PHONY : src/WinMain.cpp.s
 
+src/Window.obj: src/Window.cpp.obj
+.PHONY : src/Window.obj
+
+# target to build an object file
+src/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinMain.dir\build.make CMakeFiles/WinMain.dir/src/Window.cpp.obj
+.PHONY : src/Window.cpp.obj
+
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinMain.dir\build.make CMakeFiles/WinMain.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinMain.dir\build.make CMakeFiles/WinMain.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... src/WinMain.obj
 	@echo ... src/WinMain.i
 	@echo ... src/WinMain.s
+	@echo ... src/Window.obj
+	@echo ... src/Window.i
+	@echo ... src/Window.s
 .PHONY : help
 
 

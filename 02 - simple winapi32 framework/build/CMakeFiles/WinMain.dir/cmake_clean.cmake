@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "../bin/WinMain.pdb"
   "CMakeFiles/WinMain.dir/src/WinMain.cpp.obj"
   "CMakeFiles/WinMain.dir/src/WinMain.cpp.obj.d"
+  "CMakeFiles/WinMain.dir/src/Window.cpp.obj"
+  "CMakeFiles/WinMain.dir/src/Window.cpp.obj.d"
   "libWinMain.dll.a"
 )
 

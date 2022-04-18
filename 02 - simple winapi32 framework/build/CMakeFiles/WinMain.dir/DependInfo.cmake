@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/src/WinMain.cpp" "CMakeFiles/WinMain.dir/src/WinMain.cpp.obj" "gcc" "CMakeFiles/WinMain.dir/src/WinMain.cpp.obj.d"
+  "C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/src/Window.cpp" "CMakeFiles/WinMain.dir/src/Window.cpp.obj" "gcc" "CMakeFiles/WinMain.dir/src/Window.cpp.obj.d"
   )
 
 # Targets to which this target links.
