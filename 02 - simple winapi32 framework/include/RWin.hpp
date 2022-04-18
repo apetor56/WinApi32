@@ -17,7 +17,7 @@
 *	You should have received a copy of the GNU General Public License					  *
 *	along with The Chili Direct3D Engine.  If not, see <http://www.gnu.org/licenses/>.    *
 ******************************************************************************************/
-#ifndef RWIN_HP
+#ifndef RWIN_HPP
 #define RWIN_HPP
 
 // target Windows 7 or later
