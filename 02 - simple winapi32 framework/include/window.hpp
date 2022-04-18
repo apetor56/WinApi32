@@ -1,7 +1,7 @@
 #ifndef WINDOW_HPP
 #define WINDOW_HPP
 
-#include "RWin.hpp"
+#include "RWin.hpp
 
 class Window {
 public:
