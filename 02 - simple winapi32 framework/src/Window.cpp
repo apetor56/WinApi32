@@ -1,4 +1,4 @@
-#include "Window.hpp"
+#include "Window.hpp
 
 Window::WindowClass Window::WindowClass::windowClass;
 
