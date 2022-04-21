@@ -55,13 +55,16 @@ Window::~Window() {
     DestroyWindow(hWnd);
 }
 
-LRESULT WINAPI Window::HandleMsgSetup(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept {
+/* this procedure is to get window instance pointer by CREATESRTUCT
+   and link it with winapi32 side and then set new window procedure 'HandleMsgThunk */
+LRESULT CALLBACK Window::HandleMsgSetup(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept {
+    /* we receive pointer to CREATESTRUCT by this message (in 'lParam') */
     if(msg == WM_NCCREATE) {
         const CREATESTRUCTW *const pCreate = reinterpret_cast<CREATESTRUCTW *>(lParam);
         Window *const pWnd = static_cast<Window *>(pCreate->lpCreateParams);
 
         SetWindowLongPtr(hWnd, GWLP_USERDATA, reinterpret_cast<LONG_PTR>(pWnd));
-        SetWindowLongPtr(hWnd, GWLP_WNDPROC, reinterpret_cast<LONG_PTR>(&Window::HandleMsgThunk));
+        SetWindowLongPtr(hWnd, GWLP_WNDPROC, reinterpret_cast<LONG_PTR>(Window::HandleMsgThunk));
 
         return pWnd->HandleMsg(hWnd, msg, wParam, lParam);
     }
@@ -69,12 +72,14 @@ LRESULT WINAPI Window::HandleMsgSetup(HWND hWnd, UINT msg, WPARAM wParam, LPARAM
     return DefWindowProc(hWnd, msg, wParam, lParam);
 }
 
-LRESULT WINAPI Window::HandleMsgThunk(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept {
+/* this procedure is to invoke 'HandleMsg' procedure,
+   we cann't use directly 'HandleMsg' as window procedure */
+LRESULT CALLBACK Window::HandleMsgThunk(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept {
     Window *const pWnd = reinterpret_cast<Window *>(GetWindowLongPtr(hWnd, GWLP_USERDATA));
     return pWnd->HandleMsg(hWnd, msg, wParam, lParam);
 }
 
-LRESULT WINAPI Window::HandleMsg(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept {
+LRESULT Window::HandleMsg(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept {
     switch(msg) {
         case WM_CLOSE:
             PostQuitMessage(0);
