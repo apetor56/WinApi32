@@ -20,7 +20,7 @@ private:
 
 //////////////////////////////////////////////////////////////////////
 
-    /* class for our window class to register */
+    /* nestes class for our window class to register */
     class WindowClass {
     public:
         static const char *getName() noexcept;
@@ -47,7 +47,7 @@ private:
 
     static LRESULT CALLBACK HandleMsgThunk(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept;
 
-    LRESULT WINAPI HandleMsg(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept;
+    LRESULT HandleMsg(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept;
 };
 
 #endif // WINDOW_HPP
