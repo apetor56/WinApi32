@@ -1,3 +1,0 @@
-C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/build/CMakeFiles/WinMain.dir
-C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/build/CMakeFiles/edit_cache.dir
-C:/Users/Lukasz Tenerowicz/Desktop/DirectX/02 - simple winapi32 framework/build/CMakeFiles/rebuild_cache.dir
